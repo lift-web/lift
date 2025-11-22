@@ -19,6 +19,21 @@ header {
   transform: scale(1.1) rotate(5deg);
 }
 
+a.button {
+  display: inline-block;
+  padding: 12px 22px;
+  background: #bfa64a;
+  color: #013b22 !important;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+  box-shadow: 0 0 10px rgba(191,166,74,0.4);
+}
+a.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(191,166,74,0.7);
+}
+
 h1, h2 {
   font-family: 'Playfair Display', serif;
 }
