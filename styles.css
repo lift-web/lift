@@ -1,9 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(135deg, #014d28 0%, #022a14 100%);
-  color: #f0e8b8;
-  margin: 0;
-  padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -24,9 +20,7 @@ header {
 }
 
 h1, h2 {
-  font-family: 'Georgia', serif;
-  font-weight: 600;
-  color: #bfa64a;
+  font-family: 'Playfair Display', serif;
 }
 
 p, li {
