@@ -3,20 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>About Us - LIFT</title>
+  <title>LIFT - Learn Invest Fund Thrive</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+  <!-- Header -->
   <header>
     <img src="logo.png" alt="LIFT Logo" id="logo" />
-    <h1>About Us</h1>
-    <p>Our Mission & Vision</p>
+    <h1>Welcome to LIFT</h1>
+    <p>Learn. Invest. Fund. Thrive.</p>
   </header>
 
+  <!-- Navbar -->
   <nav>
     <ul>
-      <li><a href="index.html">🏠 Home</a></li>
-      <li><a href="about.html" class="active">🔍 About Us</a></li>
+      <li><a href="index.html" class="active">🏠 Home</a></li>
+      <li><a href="about.html">🔍 About Us</a></li>
       <li><a href="polls.html">📊 Polls</a></li>
       <li><a href="donate.html">🤝 Donate</a></li>
       <li><a href="content.html">🎥 Content</a></li>
@@ -25,21 +36,49 @@
   </nav>
 
   <main>
-    <section class="fade-in">
-      <h2>Our Mission 🔍</h2>
-      <p>At LIFT, our mission is to empower our community with financial literacy knowledge, enabling everyone to learn, invest wisely, fund meaningful causes, and ultimately thrive.</p>
+    <!-- Hero Section -->
+    <section class="hero fade-in">
+      <h1 class="hero-title">Financial Literacy. Made for Gen Z.</h1>
+      <p class="hero-sub">Bite-sized videos, polls, challenges & real money skills.</p>
+      <a href="content.html" class="hero-button">Explore Content</a>
     </section>
 
+    <!-- Stats Section -->
+    <section class="stats fade-in">
+      <table>
+        <tr>
+          <td class="card">📚 50+ Students Taught</td>
+          <td class="card">🎥 20+ Videos</td>
+          <td class="card">🤝 3 Partner Charities</td>
+        </tr>
+      </table>     
+    </section>
+
+    <!-- Popular Videos -->
     <section class="fade-in">
-      <h2>Who We Are</h2>
-      <p>We are a passionate nonprofit team dedicated to educating and supporting people of all ages on smart financial habits and decision-making.</p>
+      <h2>Popular Videos</h2>
+      <table>
+        <tr>
+          <td class="card">Short investing basics clip</td>
+          <td class="card">Budgeting myths</td>
+          <td class="card">Teen money hacks</td>
+        </tr>
+      </table>     
+    </section>
+
+    <!-- Team Spotlight -->
+    <section class="team fade-in">
+      <h2>Meet the Team</h2>
+      <p>We’re two students trying to make money skills actually FUN.</p>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>Follow us on Instagram: <a href="https://www.instagram.com/lift.nh" target="_blank" rel="noopener">@lift.nh</a></p>
-  </footer>
-
+  <p>Follow us on Instagram: <a href="https://www.instagram.com/lift.nh" target="_blank" rel="noopener">@lift.nh</a></p>
+</footer>
+  <!-- Floating Chat Button -->
   <div id="chat-btn" onclick="window.location.href='https://www.instagram.com/lift.nh/'">💬</div>
+
 </body>
 </html>
